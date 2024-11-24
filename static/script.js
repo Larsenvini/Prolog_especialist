@@ -1,5 +1,5 @@
 document.getElementById('diagnosticarBtn').addEventListener('click', async () => {
-    const sintoma = document.getElementById('sintomaInput').value.trim(); // Remove espaços extras
+    const sintoma = document.getElementById('sintomaInput').value.trim(); 
 
     if (!sintoma) {
         alert("Por favor, digite um sintoma.");

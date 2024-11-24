@@ -80,7 +80,7 @@ header .logo-img {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 500px; /* Adjust width if needed */
+    max-width: 500px; 
 }
 
 .container h1 {
@@ -88,7 +88,7 @@ header .logo-img {
     color: #ccc; /
 }
 
-/* Estilo para inputs e botões */
+
 input, button {
     margin: 10px;
     padding: 15px;
@@ -109,7 +109,7 @@ button:hover {
     background-color: #006305;
 }
 
-/* Estilo para o resultado */
+
 #resultado {
     margin-top: 20px;
     font-weight: bold;
@@ -117,7 +117,7 @@ button:hover {
     color: #ccc;
 }
 
-/* Estilos para a exibição das imagens */
+
 #imagemProblema {
     margin-top: 20px;
     text-align: center;
@@ -135,9 +135,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed; /* Fixa o footer na parte inferior */
+    position: fixed; 
     bottom: 0;
     font-size: 14px;
     z-index: 1000;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* Sombra para separação */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); 
 }
