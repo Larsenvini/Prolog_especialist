@@ -1,29 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    padding-top: 80px;
+    background-image: url('/static/imagens/bugati.jpg'), url('/static/imagens/bugati2.jpg');
+    background-size: 50% 100%; 
+    background-position: left center, right center; 
+    background-repeat: no-repeat;
 }
 
-.container {
-    text-align: center;
-    background: white;
+header {
+    width: 100%;
+    height: 20%;
+    background-color: #490000;
+    color: white;
     padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-img {
+    width: 180px;
+    height: 180px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: left; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin-top: 50px; 
+}
+
+.containerr {
+    text-align: left;
+    background-color: #490000;
+    padding: 80px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px; 
+}
+.containerr h2 {
+    font-size: 20px;
+    color: #ccc; 
+    margin-bottom: 10px;
+}
+.containerr li {
+    color: #ccc;
+    font-size: 16px;
+
+}
+.container {
+    text-align: center;
+    background-color: #490000;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Adjust width if needed */
 }
 
+.container h1 {
+    font-size: 20px;
+    color: #ccc; /
+}
+
+/* Estilo para inputs e botões */
 input, button {
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
 
+button {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006305;
+}
+
+/* Estilo para o resultado */
 #resultado {
     margin-top: 20px;
     font-weight: bold;
+    font-size: 18px;
+    color: #ccc;
 }
 
+/* Estilos para a exibição das imagens */
+#imagemProblema {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#imagemProblema img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+footer {
+    width: 100%;
+    background-color: #490000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Fixa o footer na parte inferior */
+    bottom: 0;
+    font-size: 14px;
+    z-index: 1000;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* Sombra para separação */
+}

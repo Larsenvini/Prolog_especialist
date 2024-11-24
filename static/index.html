@@ -7,12 +7,51 @@
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Sistema de Diagnóstico Automotivo</h1>
-        <input type="text" id="sintomaInput" placeholder="Digite um sintoma..." />
-        <button id="diagnosticarBtn">Diagnosticar</button>
-        <div id="resultado"></div>
+    <header>
+        <div class="logo">
+            <!-- Insira o logo aqui, pode ser uma imagem ou um texto -->
+            <img src="static/imagens/logo.png" alt="Logo do Diagnóstico" class="logo-img">
+        </div>
+    
+    </header>
+
+    <div class="content-wrapper">
+        <div class="containerr">
+            <h2>Sintomas Conhecidos:</h2>
+            <ul>
+                <li>motor superaquecendo</li>
+                <li>temperatura alta motor</li>
+                <li>sai fumaca do motor</li>
+                <li>motor com fumaca</li>
+                <li>ignição fraca</li>
+                <li>luz de bateria vermelha</li>
+                <li>luzes apagadas</li>
+                <li>ruído ao frear</li>
+                <li>barulho no freio</li>
+                <li>carro sem forca</li>
+                <li>perda de potência</li>
+                <li>falha ao ligar</li>
+                <li>carro não liga</li>
+                <li>temperatura no vermelho</li>
+                <li>motor aquecendo</li>
+                <li>ruído estranho no motor</li>
+                <li>barulho no motor</li>
+            </ul>
+        </div>
+        
+    
+        <div class="container">
+            <h1>Sistema de Diagnóstico Automotivo</h1>
+            <input type="text" id="sintomaInput" placeholder="Digite um sintoma..." />
+            <button id="diagnosticarBtn">Diagnosticar</button>
+            <div id="resultado"></div>
+            <div id="imagemProblema"></div> <!-- Div para imagem do problema -->
+        </div>
     </div>
+
     <script src="static/script.js"></script>
+    <footer>
+        2024 LarsenAuto - All rights reserved
+    </footer>
 </body>
 </html>
