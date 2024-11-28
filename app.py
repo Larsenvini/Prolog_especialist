@@ -34,7 +34,7 @@ mensagens_amigaveis = {
 # Função para mapear sintomas
 def mapear_sintoma(sintoma_input):
     sintomas_conhecidos = {
-        "O motor está superaquecendo.": ["motor superaquecendo", "luz vermelha com gota", "sai fumaca do motor", "motor muito quente", "motor com fumaca", "fumaça no motor"],
+        "O motor está superaquecendo.": ["motor superaquecendo", "luz vermelha com gota", "sai fumaca do motor", "motor muito quente", "motor com fumaca", "fumaça no motor", "motor sai fumaca"],
         "A ignição está fraca e as luzes do painel estão apagadas.": ["ignição fraca", "luz de bateria vermelha", "luzes fracas", "luzes apagadas"],
         "Há um ruído ao frear.": ["ruído ao frear", "discos de freio desgastados", "barulho no freio", "freio fazendo barulho", "ruido no freio", "ruido ao freiar"],
         "O carro não acelera como deveria.": ["carro não acelera", "carro nao acelera", "carro sem forca", "carro sem força", "carro fraco"],
